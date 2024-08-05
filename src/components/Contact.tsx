@@ -3,19 +3,26 @@ import { PopupButton } from "react-calendly";
 
 const Contact: React.FC = () => {
   return (
-    <section 
-      id="contact-section" 
+    <section
+      id="contact-section"
       className="flex flex-col items-center justify-center h-screen text-center"
       style={{
-        background: 'linear-gradient(90deg, hsla(139, 72%, 83%, 1) 0%, hsla(229, 89%, 62%, 1) 100%)',
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover'
+        background:
+          "linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%)",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
       }}
     >
       <div className="flex flex-col items-center">
-        <h2 className="text-sm uppercase tracking-widest text-yellow-300">Get in Touch</h2>
+        <h2 className="text-sm uppercase tracking-widest text-yellow-300">
+          Get in Touch
+        </h2>
         <h1 className="text-4xl md:text-5xl font-bold leading-tight text-black">
-          Connect With Us:<br />Book Your Appointment<br />Today
+          Connect With Us:
+          <br />
+          Book Your Appointment
+          <br />
+          Today
         </h1>
         <PopupButton
           url="https://calendly.com/goddessink-myyahoo"
