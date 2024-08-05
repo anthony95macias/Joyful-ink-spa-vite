@@ -14,13 +14,13 @@ const MainSection: React.FC = () => {
         className="absolute inset-0 w-full h-full"
         style={{
           backgroundImage:
-            "linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%)",
+            "linear-gradient(90deg, hsla(210, 91%, 39%, 1) 0%, hsla(321, 55%, 50%, 1) 100%)",
           MozBackgroundImage:
-            "linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%)",
+            "linear-gradient(90deg, hsla(210, 91%, 39%, 1) 0%, hsla(321, 55%, 50%, 1) 100%)",
           WebkitBackgroundImage:
-            "linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%)",
+            "linear-gradient(90deg, hsla(210, 91%, 39%, 1) 0%, hsla(321, 55%, 50%, 1) 100%)",
           filter:
-            'progid:DXImageTransform.Microsoft.gradient(startColorstr="#439CFB", endColorstr="#F187FB", GradientType=1)',
+            'progid:DXImageTransform.Microsoft.gradient(startColorstr="#0965C0", endColorstr="#C53A94", GradientType=1)',
         }}
       ></div>
 
