@@ -97,8 +97,8 @@ const Footer = () => {
       }}
     >
       <aside>
-        <h1 className="text-2xl font-bold text-black">Joyful Ink</h1>
-        <p className="font-bold text-black">
+        <h1 className="text-2xl font-bold text-white">Joyful Ink</h1>
+        <p className="font-bold text-white">
           Inside Sassy Shears Salon
           <br />
           2440 Fulton Ave Suite 10, Sacramento CA 95825
@@ -108,7 +108,7 @@ const Footer = () => {
         <nav className="mt-1">
           <SocialLinks />
         </nav>
-        <p className="text-black mt-2">
+        <p className="text-white mt-2">
           Copyright © {new Date().getFullYear()} - All right reserved
         </p>
       </aside>

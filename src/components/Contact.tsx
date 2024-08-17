@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
         <h2 className="text-sm uppercase tracking-widest text-yellow-300">
           Get in Touch
         </h2>
-        <h1 className="text-4xl md:text-5xl font-bold leading-tight text-black">
+        <h1 className="text-4xl md:text-5xl font-bold leading-tight text-white">
           Connect With Us:
           <br />
           Book Your Appointment

@@ -16,46 +16,46 @@ import {
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 
-const paramedicTreatments = [
+const smpReviews = [
   {
-    name: "Olivia Chen",
-    treatment: "Vitiligo Camouflage",
+    name: "James Turner",
+    treatment: "Scalp Micropigmentation",
     testimonial:
-      "The vitiligo camouflage treatment at this clinic has been life-changing. The pigmentation matches my natural tone perfectly, and I feel comfortable wearing short sleeves again.",
+      "The SMP treatment I received from the technician here was outstanding. Her attention to detail and skillful work completely transformed my hairline. I couldn’t be happier with the results.",
   },
   {
-    name: "Marcus Roberts",
-    treatment: "Burn Scar Camouflage",
+    name: "Emily Davis",
+    treatment: "Scalp Micropigmentation",
     testimonial:
-      "The burn scar camouflage treatment has given me a new lease on life. The texture and color matching are incredible, and most people can't even tell I had scars.",
+      "I was amazed by the expertise of the technician. She made me feel comfortable throughout the process, and the results exceeded my expectations. My hair looks fuller, and I’ve regained my confidence.",
   },
   {
-    name: "Aisha Patel",
-    treatment: "Stretch Mark Camouflage",
+    name: "Michael Lee",
+    treatment: "Scalp Micropigmentation",
     testimonial:
-      "The stretch mark camouflage treatment exceeded my expectations. The marks are now barely visible, and I feel confident in my body again.",
+      "The technician at this clinic is a true artist. Her precise work gave me a natural-looking hairline that blends seamlessly with my existing hair. The transformation has been life-changing.",
   },
   {
-    name: "Liam O'Connor",
-    treatment: "Acne Scar Camouflage",
+    name: "Sarah Johnson",
+    treatment: "Scalp Micropigmentation",
     testimonial:
-      "The acne scar camouflage treatment here has been miraculous. My skin looks smoother, and the scars are significantly less noticeable.",
+      "After years of dealing with hair loss, the SMP treatment from this skilled technician has been a game-changer. Her professional approach and the natural results have restored my self-esteem.",
   },
   {
-    name: "Zara Mahmood",
-    treatment: "Hypopigmentation Camouflage",
+    name: "David Brown",
+    treatment: "Scalp Micropigmentation",
     testimonial:
-      "The hypopigmentation camouflage treatment blended perfectly with my natural skin tone. The results look completely natural, and I feel like myself again.",
+      "I was nervous about the procedure, but the technician’s expertise put me at ease. The results are incredibly natural, and I feel more confident every day. I highly recommend her services.",
   },
   {
-    name: "Tyler Nguyen",
-    treatment: "Surgical Scar Camouflage",
+    name: "Sophia Martinez",
+    treatment: "Scalp Micropigmentation",
     testimonial:
-      "The surgical scar camouflage treatment has helped me move past my surgery. The scar is now barely noticeable, and I can confidently wear V-neck shirts again.",
+      "The technician’s work is nothing short of amazing. She took the time to understand my concerns and delivered results that look and feel completely natural. I’m thrilled with the outcome.",
   },
 ];
 
-const ParamedicTreatmentCards: React.FC = () => {
+const SmpTreatmentCards: React.FC = () => {
   const [api, setApi] = useState<CarouselApi>();
 
   useEffect(() => {
@@ -64,7 +64,7 @@ const ParamedicTreatmentCards: React.FC = () => {
     }
 
     api.on("select", () => {
-      console.log("Gallery.tsx:", api.selectedScrollSnap() + 1);
+      console.log("SmpTreatmentCards.tsx:", api.selectedScrollSnap() + 1);
     });
   }, [api]);
 
@@ -78,9 +78,9 @@ const ParamedicTreatmentCards: React.FC = () => {
     >
       {/* Title Section */}
       <div className="max-w-6xl mx-auto text-center pt-5 sm:pt-10 pb-10 sm:pb-20">
-        <h2 className="text-3xl font-extrabold text-gray-900">
-          Trusted by <span className="text-pink-600">our clients</span> for
-          exceptional paramedical tattoo treatments
+        <h2 className="text-3xl font-extrabold text-white">
+          Trusted by <span className="text-yellow-300">our clients</span> for
+          exceptional SMP treatments by a skilled technician
         </h2>
       </div>
 
@@ -96,7 +96,7 @@ const ParamedicTreatmentCards: React.FC = () => {
           className="w-full"
         >
           <CarouselContent>
-            {paramedicTreatments.map((treatment, index) => (
+            {smpReviews.map((review, index) => (
               <CarouselItem
                 key={index}
                 className="basis-full md:basis-1/2 lg:basis-1/2 flex justify-center"
@@ -111,16 +111,16 @@ const ParamedicTreatmentCards: React.FC = () => {
                           alt="Bordered avatar"
                         />
                         <CardTitle className="text-2xl mt-2 text-center">
-                          {treatment.name}
+                          {review.name}
                         </CardTitle>
                         <CardDescription className="text-lg mb-2 text-center">
-                          {treatment.treatment}
+                          {review.treatment}
                         </CardDescription>
                       </div>
                     </CardHeader>
                     <CardContent className="pt-4 flex-grow flex flex-col justify-between">
                       <p className="text-base text-gray-500 text-center">
-                        {treatment.testimonial}
+                        {review.testimonial}
                       </p>
                       <div className="flex justify-center mt-4">
                         {/* Fixed 5 Star Rating */}
@@ -201,4 +201,4 @@ const ParamedicTreatmentCards: React.FC = () => {
   );
 };
 
-export default ParamedicTreatmentCards;
+export default SmpTreatmentCards;

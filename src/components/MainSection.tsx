@@ -26,7 +26,7 @@ const MainSection: React.FC = () => {
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-none sm:leading-tight">
           Get the Perfect Hairline
           <br />
-          with Scalp Micropigmentation
+          with SMP Treatment
         </h1>
         <button
           onClick={handleScrollToContact}

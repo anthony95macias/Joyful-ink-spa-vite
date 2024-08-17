@@ -31,18 +31,18 @@ const AboutServicesCard: React.FC = () => {
     >
       <div className="min-h-screen flex flex-col lg:flex-row lg:items-center lg:space-x-10 space-y-10 lg:space-y-0 lg:pl-20 pt-10 sm:pt-10">
         <div className="lg:w-1/2 px-4 sm:px-8 lg:px-10">
-          <h1 className="text-3xl lg:text-4xl font-bold text-black">
-            Paramedical Tattooing
+          <h1 className="text-3xl lg:text-4xl font-bold text-white">
+            Scalp Micropigmentation Hairlines (SMP)
           </h1>
-          <p className="py-6 text-sm lg:text-base text-black leading-relaxed lg:leading-relaxed">
-            Paramedical tattooing offers a life-changing solution for those
-            aiming to improve the appearance of scars, stretch marks, or other
-            skin imperfections. Our expert technicians employ advanced
-            techniques, such as 3D areola reconstruction and radiation marker
-            camouflage, to achieve natural-looking results that boost your
-            confidence and well-being. Whether your goal is to conceal scars or
-            restore skin color, our paramedical tattooing services are tailored
-            to meet your specific needs.
+          <p className="py-6 text-sm lg:text-base text-white leading-relaxed lg:leading-relaxed">
+            Experience the transformative power of Scalp Micropigmentation (SMP)
+            for creating natural, defined hairlines that enhance your
+            appearance. Our skilled technician uses advanced techniques to
+            replicate the look of real hair follicles, providing a non-invasive,
+            long-lasting solution for hair loss. Whether you're dealing with a
+            receding hairline, thinning hair, or complete baldness, our SMP
+            treatments are designed to restore your confidence and give you the
+            youthful, well-groomed look you desire.
           </p>
           <a
             href="#contact-section"
