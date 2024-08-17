@@ -8,7 +8,7 @@ const Contact: React.FC = () => {
       className="flex flex-col items-center justify-center h-screen text-center"
       style={{
         background:
-          "linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%)",
+          "linear-gradient(90deg, hsla(321, 55%, 50%, 1) 0%, hsla(210, 91%, 39%, 1) 100%)",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}

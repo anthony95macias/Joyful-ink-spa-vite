@@ -93,7 +93,7 @@ const Footer = () => {
       className="footer footer-center text-primary-content py-4"
       style={{
         background:
-          "linear-gradient(90deg, hsla(277, 79%, 84%, 1) 0%, hsla(204, 95%, 77%, 1) 100%)",
+          "linear-gradient(90deg, hsla(210, 91%, 39%, 1) 0%, hsla(321, 55%, 50%, 1) 100%)",
       }}
     >
       <aside>

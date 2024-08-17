@@ -73,13 +73,13 @@ const ParamedicTreatmentCards: React.FC = () => {
       className="flex flex-col items-center justify-center h-auto py-20 sm:py-40 text-center"
       style={{
         background:
-          "linear-gradient(90deg, hsla(277, 79%, 84%, 1) 0%, hsla(204, 95%, 77%, 1) 100%)",
+          "linear-gradient(90deg, hsla(210, 91%, 39%, 1) 0%, hsla(321, 55%, 50%, 1) 100%)",
       }}
     >
       {/* Title Section */}
       <div className="max-w-6xl mx-auto text-center pt-5 sm:pt-10 pb-10 sm:pb-20">
         <h2 className="text-3xl font-extrabold text-gray-900">
-          Trusted by <span className="text-indigo-600">our clients</span> for
+          Trusted by <span className="text-pink-600">our clients</span> for
           exceptional paramedical tattoo treatments
         </h2>
       </div>
@@ -191,7 +191,7 @@ const ParamedicTreatmentCards: React.FC = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                d="M12 5l7 7-7 7M5 5l7 7-7 7"
+                d="M5 19l7-7-7-7m14 14l-7-7 7-7"
               />
             </svg>
           </CarouselNext>

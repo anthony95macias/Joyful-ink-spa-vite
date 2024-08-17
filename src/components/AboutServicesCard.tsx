@@ -25,8 +25,8 @@ const AboutServicesCard: React.FC = () => {
     <section
       className="flex flex-col items-center justify-center h-auto text-center text-black"
       style={{
-        background:
-          "linear-gradient(90deg, hsla(189, 92%, 69%, 1) 0%, hsla(335, 89%, 66%, 1) 50%, hsla(240, 63%, 57%, 1) 100%)",
+        backgroundImage:
+          "linear-gradient(90deg, hsla(321, 55%, 50%, 1) 0%, hsla(210, 91%, 39%, 1) 100%)",
       }}
     >
       <div className="min-h-screen flex flex-col lg:flex-row lg:items-center lg:space-x-10 space-y-10 lg:space-y-0 lg:pl-20 pt-10 sm:pt-10">

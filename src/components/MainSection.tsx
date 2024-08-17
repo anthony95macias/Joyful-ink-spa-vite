@@ -15,26 +15,18 @@ const MainSection: React.FC = () => {
         style={{
           backgroundImage:
             "linear-gradient(90deg, hsla(210, 91%, 39%, 1) 0%, hsla(321, 55%, 50%, 1) 100%)",
-          MozBackgroundImage:
-            "linear-gradient(90deg, hsla(210, 91%, 39%, 1) 0%, hsla(321, 55%, 50%, 1) 100%)",
-          WebkitBackgroundImage:
-            "linear-gradient(90deg, hsla(210, 91%, 39%, 1) 0%, hsla(321, 55%, 50%, 1) 100%)",
-          filter:
-            'progid:DXImageTransform.Microsoft.gradient(startColorstr="#0965C0", endColorstr="#C53A94", GradientType=1)',
         }}
       ></div>
 
       {/* Main content centered */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-sm uppercase tracking-widest text-yellow-300">
-          We know your story
+          Elevate Your Confidence
         </h2>
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-none sm:leading-tight">
-          Ink with Purpose:
+          Get the Perfect Hairline
           <br />
-          Empowering Your Journey
-          <br />
-          to Recovery
+          with Scalp Micropigmentation
         </h1>
         <button
           onClick={handleScrollToContact}
