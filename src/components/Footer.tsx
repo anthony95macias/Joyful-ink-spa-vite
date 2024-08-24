@@ -37,7 +37,7 @@ const SocialLinks: React.FC = () => {
         </svg>
       </a>
       <a
-        href="https://www.instagram.com/goddessinkbykertrina?igsh=MzRlODBiNWFlZA=="
+        href="https://www.instagram.com/joyfulinklm"
         className="hover:text-gray-300"
         aria-label="Instagram"
         target="_blank"
@@ -99,11 +99,11 @@ const Footer = () => {
       <aside>
         <h1 className="text-2xl font-bold text-white">Joyful Ink</h1>
         <p className="font-bold text-white">
-          Inside Sassy Shears Salon
+          Inside The Beauty Exchange
           <br />
-          2440 Fulton Ave Suite 10, Sacramento CA 95825
+          311 Oak Ridge Dr Roseville, CA 95661 United States
           <br />
-          (530) 383-7555
+          ‭(916) 903-8022‬
         </p>
         <nav className="mt-1">
           <SocialLinks />

@@ -11,13 +11,16 @@ import Autoplay from "embla-carousel-autoplay";
 
 // Image URLs
 const images = [
-  "/Paramedic.png",
-  "/IMG_1.png",
-  "/stetch_marks_coverage.png",
-  "/stetch_marks_coverage_2.png",
-  "/IMG_6.png",
-  "/IMG_4.png",
-  "/IMG_5.png",
+  "/img_1.png",
+  "/img_10.png",
+  "/img_11.png",
+  "/img_3.png",
+  "/img_4.png",
+  "/img_5.png",
+  "/img_6.png",
+  "/img_7.png",
+  "/img_8.png",
+  "/img_9.png",
 ];
 
 const AboutServicesCard: React.FC = () => {
