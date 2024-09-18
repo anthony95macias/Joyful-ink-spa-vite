@@ -19,39 +19,39 @@ import Autoplay from "embla-carousel-autoplay";
 const smpReviews = [
   {
     name: "James Turner",
-    treatment: "Scalp Micropigmentation",
+    treatment: "Advanced Hairline Design",
     testimonial:
-      "The SMP treatment I received from the technician here was outstanding. Her attention to detail and skillful work completely transformed my hairline. I couldn’t be happier with the results.",
+      "The Advanced Hairline Design service completely changed my look. The technician’s precision and artistic eye created a natural, youthful hairline that blends seamlessly with my remaining hair. I'm absolutely thrilled with the outcome!",
   },
   {
     name: "Emily Davis",
-    treatment: "Scalp Micropigmentation",
+    treatment: "Full Scalp Coverage",
     testimonial:
-      "I was amazed by the expertise of the technician. She made me feel comfortable throughout the process, and the results exceeded my expectations. My hair looks fuller, and I’ve regained my confidence.",
+      "I opted for Full Scalp Coverage, and it was the best decision I ever made. The technician's expertise was evident from the start, and the results are stunning. My scalp looks completely covered, and I feel more confident going out without a hat.",
   },
   {
     name: "Michael Lee",
-    treatment: "Scalp Micropigmentation",
+    treatment: "Temple Restoration",
     testimonial:
-      "The technician at this clinic is a true artist. Her precise work gave me a natural-looking hairline that blends seamlessly with my existing hair. The transformation has been life-changing.",
+      "The Temple Restoration service was incredible. The technician carefully matched the pigmentation to my natural hair color, and now my temples look fuller and more defined. It’s like turning back the clock on hair loss.",
   },
   {
     name: "Sarah Johnson",
-    treatment: "Scalp Micropigmentation",
+    treatment: "Micro Density Treatment",
     testimonial:
-      "After years of dealing with hair loss, the SMP treatment from this skilled technician has been a game-changer. Her professional approach and the natural results have restored my self-esteem.",
+      "The Micro Density Treatment added volume to my thinning hair areas in a way that looks natural and realistic. The technician was incredibly skilled and made me feel comfortable throughout the process. I feel like I have my old hair back!",
   },
   {
     name: "David Brown",
-    treatment: "Scalp Micropigmentation",
+    treatment: "Hairline Enhancement",
     testimonial:
-      "I was nervous about the procedure, but the technician’s expertise put me at ease. The results are incredibly natural, and I feel more confident every day. I highly recommend her services.",
+      "I chose Hairline Enhancement to refine my existing hairline, and I’m amazed at how natural it looks. The technician’s detailed approach and careful planning resulted in a perfect blend with my natural hair. I couldn’t be happier!",
   },
   {
     name: "Sophia Martinez",
-    treatment: "Scalp Micropigmentation",
+    treatment: "Scar Concealment SMP",
     testimonial:
-      "The technician’s work is nothing short of amazing. She took the time to understand my concerns and delivered results that look and feel completely natural. I’m thrilled with the outcome.",
+      "The Scar Concealment SMP was a lifesaver. The technician skillfully blended the pigmentation with my existing hair, making my scars practically disappear. The results are incredibly realistic, and I’m so pleased with the outcome.",
   },
 ];
 

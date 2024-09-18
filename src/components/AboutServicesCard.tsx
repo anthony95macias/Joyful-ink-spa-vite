@@ -12,14 +12,14 @@ import Autoplay from "embla-carousel-autoplay";
 // Image URLs
 const images = [
   "/img_11.png",
-  "/img_1.png", /* make all img same size */
+  "/img_1.png" /* make all img same size */,
   "/img_3.png",
   "/img_5.png",
   "/img_4.png",
-  "/img_7.png", /* fix positioning */
+  "/img_7.png" /* fix positioning */,
   "/img_6.png",
-  "/img_8.png", /* fix positioning */
-  "/img_10.png", /* fix positioning */
+  "/img_8.png" /* fix positioning */,
+  "/img_10.png" /* fix positioning */,
 ];
 
 const AboutServicesCard: React.FC = () => {
@@ -61,7 +61,10 @@ const AboutServicesCard: React.FC = () => {
 
 export function CarouselDApiDemo() {
   const [api, setApi] = React.useState<CarouselApi>();
-  const [imgSize, setImgSize] = React.useState<{ width: number; height: number } | null>(null);
+  const [imgSize, setImgSize] = React.useState<{
+    width: number;
+    height: number;
+  } | null>(null);
 
   React.useEffect(() => {
     // Load the dimensions of "/img_4.png"
@@ -95,7 +98,10 @@ export function CarouselDApiDemo() {
       >
         <CarouselContent className="h-full">
           {images.map((image, index) => (
-            <CarouselItem key={index} className="h-full flex items-center justify-center">
+            <CarouselItem
+              key={index}
+              className="h-full flex items-center justify-center"
+            >
               <div className="p-2 flex items-center justify-center">
                 {imgSize ? (
                   <img
