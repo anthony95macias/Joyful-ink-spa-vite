@@ -12,14 +12,14 @@ import Autoplay from "embla-carousel-autoplay";
 // Image URLs
 const images = [
   "/img_11.png",
-  "/img_1.png" /* make all img same size */,
+  "/img_1.png", // Make all images the same size
   "/img_3.png",
   "/img_5.png",
   "/img_4.png",
-  "/img_7.png" /* fix positioning */,
+  "/img_7.png", // Fix positioning
   "/img_6.png",
-  "/img_8.png" /* fix positioning */,
-  "/img_10.png" /* fix positioning */,
+  "/img_8.png", // Fix positioning
+  "/img_10.png", // Fix positioning
 ];
 
 const AboutServicesCard: React.FC = () => {
@@ -107,10 +107,16 @@ export function CarouselDApiDemo() {
                   <img
                     src={image}
                     alt={`Slide ${index + 1}`}
-                    className="object-cover rounded-lg"
+                    className={`rounded-lg ${
+                      image === "/img_1.png" ? "object-contain" : "object-cover"
+                    }`}
                     style={{
-                      width: `${imgSize.width}px`,
-                      height: `${imgSize.height}px`,
+                      width:
+                        image === "/img_1.png" ? "auto" : `${imgSize.width}px`,
+                      height:
+                        image === "/img_1.png"
+                          ? `${imgSize.height + 50}px`
+                          : `${imgSize.height}px`,
                     }}
                   />
                 ) : (
