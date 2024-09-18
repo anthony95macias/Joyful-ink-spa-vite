@@ -12,7 +12,7 @@ import Autoplay from "embla-carousel-autoplay";
 // Image URLs
 const images = [
   "/img_11.png",
-  "/img_1.png",
+  "/img_1.png", /* make all img same size */
   "/img_3.png",
   "/img_5.png",
   "/img_4.png",
@@ -61,6 +61,16 @@ const AboutServicesCard: React.FC = () => {
 
 export function CarouselDApiDemo() {
   const [api, setApi] = React.useState<CarouselApi>();
+  const [imgSize, setImgSize] = React.useState<{ width: number; height: number } | null>(null);
+
+  React.useEffect(() => {
+    // Load the dimensions of "/img_4.png"
+    const img = new Image();
+    img.src = "/img_4.png";
+    img.onload = () => {
+      setImgSize({ width: img.width, height: img.height });
+    };
+  }, []);
 
   React.useEffect(() => {
     if (!api) {
@@ -86,16 +96,21 @@ export function CarouselDApiDemo() {
         <CarouselContent className="h-full">
           {images.map((image, index) => (
             <CarouselItem key={index} className="h-full flex items-center justify-center">
-              <div className="w-full h-full p-2 flex items-center justify-center">
-                <img
-                  src={image}
-                  alt={`Slide ${index + 1}`}
-                  className={`object-cover w-full sm:w-full md:w-2/3 lg:w-1/2 h-auto rounded-lg ${[
-                    "/img_7.png",
-                    "/img_8.png",
-                    "/img_10.png",
-                  ].includes(image) ? "mt-20" : ""}`} // Add margin to specific images
-                />
+              <div className="p-2 flex items-center justify-center">
+                {imgSize ? (
+                  <img
+                    src={image}
+                    alt={`Slide ${index + 1}`}
+                    className="object-cover rounded-lg"
+                    style={{
+                      width: `${imgSize.width}px`,
+                      height: `${imgSize.height}px`,
+                    }}
+                  />
+                ) : (
+                  // Placeholder or loader while image size is being loaded
+                  <div className="w-full h-full bg-gray-200 rounded-lg animate-pulse"></div>
+                )}
               </div>
             </CarouselItem>
           ))}
