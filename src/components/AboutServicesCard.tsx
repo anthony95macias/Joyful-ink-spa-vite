@@ -11,16 +11,15 @@ import Autoplay from "embla-carousel-autoplay";
 
 // Image URLs
 const images = [
-  "/img_1.png",
-  "/img_10.png",
   "/img_11.png",
+  "/img_1.png",
   "/img_3.png",
-  "/img_4.png",
   "/img_5.png",
+  "/img_4.png",
+  "/img_7.png", /* fix positioning */
   "/img_6.png",
-  "/img_7.png",
-  "/img_8.png",
-  "/img_9.png",
+  "/img_8.png", /* fix positioning */
+  "/img_10.png", /* fix positioning */
 ];
 
 const AboutServicesCard: React.FC = () => {
@@ -74,7 +73,7 @@ export function CarouselDApiDemo() {
   }, [api]);
 
   return (
-    <div className="relative w-full px-4 sm:px-8 lg:w-2/3 xl:w-3/4 lg:pl-10">
+    <div className="relative w-full px-4 sm:px-8 lg:w-2/3 xl:w-3/4 lg:pl-10 flex justify-center items-center">
       <Carousel
         setApi={setApi}
         plugins={[
@@ -86,12 +85,16 @@ export function CarouselDApiDemo() {
       >
         <CarouselContent className="h-full">
           {images.map((image, index) => (
-            <CarouselItem key={index} className="h-full">
-              <div className="w-full h-full p-1 flex items-center justify-center">
+            <CarouselItem key={index} className="h-full flex items-center justify-center">
+              <div className="w-full h-full p-2 flex items-center justify-center">
                 <img
                   src={image}
                   alt={`Slide ${index + 1}`}
-                  className="object-cover w-full sm:w-full md:w-2/3 lg:w-1/2 h-auto rounded-lg pb-10 sm:pb-0"
+                  className={`object-cover w-full sm:w-full md:w-2/3 lg:w-1/2 h-auto rounded-lg ${[
+                    "/img_7.png",
+                    "/img_8.png",
+                    "/img_10.png",
+                  ].includes(image) ? "mt-20" : ""}`} // Add margin to specific images
                 />
               </div>
             </CarouselItem>
