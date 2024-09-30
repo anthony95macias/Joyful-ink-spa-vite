@@ -47,10 +47,12 @@ const AboutServicesCard: React.FC = () => {
             youthful, well-groomed look you desire.
           </p>
           <a
-            href="#contact-section"
+            href="https://www.instagram.com/joyfulinklm" // Update to your Instagram profile URL
+            target="_blank"
             className="mt-4 sm:mt-6 md:mt-8 bg-yellow-400 text-black py-2 px-4 rounded-lg shadow-lg transform transition hover:scale-105"
+            rel="noopener noreferrer"
           >
-            Get Started
+            See More
           </a>
         </div>
         <CarouselDApiDemo />
