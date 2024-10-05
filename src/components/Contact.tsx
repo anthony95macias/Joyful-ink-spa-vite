@@ -87,7 +87,7 @@ function ContactForm() {
         <h2 className="text-sm uppercase tracking-widest text-yellow-300">
           Book an Appointment
         </h2>
-        <h1 className="text-4xl md:text-5xl font-bold leading-tight text-black mt-4">
+        <h1 className="text-4xl md:text-5xl font-bold leading-tight text-white mt-4">
           Schedule Your Session
         </h1>
       </div>
@@ -100,7 +100,10 @@ function ContactForm() {
         >
           <div className="flex flex-col md:flex-row justify-between w-full">
             <div className="w-full md:w-1/2 md:pr-2">
-              <label htmlFor="first-name" className="text-black self-start">
+              <label
+                htmlFor="first-name"
+                className="text-yellow-300 self-start"
+              >
                 First Name
               </label>
               <input
@@ -112,7 +115,7 @@ function ContactForm() {
               />
             </div>
             <div className="w-full md:w-1/2 md:pl-2 mt-4 md:mt-0">
-              <label htmlFor="last-name" className="text-black self-start">
+              <label htmlFor="last-name" className="text-yellow-300 self-start">
                 Last Name
               </label>
               <input
@@ -125,7 +128,10 @@ function ContactForm() {
             </div>
           </div>
 
-          <label htmlFor="email" className="mt-4 text-black self-start w-full">
+          <label
+            htmlFor="email"
+            className="mt-4 text-yellow-300 self-start w-full"
+          >
             Email Address
           </label>
           <input
@@ -136,7 +142,10 @@ function ContactForm() {
             required
           />
 
-          <label htmlFor="date" className="mt-4 text-black self-start w-full">
+          <label
+            htmlFor="date"
+            className="mt-4 text-yellow-300 self-start w-full"
+          >
             Date
           </label>
           <input
@@ -147,7 +156,10 @@ function ContactForm() {
             required
           />
 
-          <label htmlFor="time" className="mt-4 text-black self-start w-full">
+          <label
+            htmlFor="time"
+            className="mt-4 text-yellow-300 self-start w-full"
+          >
             Time
           </label>
           <input
@@ -161,7 +173,7 @@ function ContactForm() {
 
           <label
             htmlFor="message"
-            className="mt-4 text-black self-start w-full"
+            className="mt-4 text-yellow-300 self-start w-full"
           >
             Additional Message (Optional)
           </label>
