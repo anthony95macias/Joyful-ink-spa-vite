@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
       </aside>
 
       {/* Footer specific CSS overrides */}
-      <style jsx>{`
+      <style>{`
         .footer-social-links svg {
           color: white !important; /* Default color white */
           transition: color 0.3s ease;
