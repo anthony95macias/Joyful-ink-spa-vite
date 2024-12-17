@@ -13,6 +13,7 @@ This project is a **Single Page Application (SPA)** built with **TypeScript** an
 - **Book Now** feature with EmailJS integration for personal notifications.
 - Easy-to-follow Docker Compose setup for self-hosting.
 - Social media links for enhanced connectivity.
+- **Mobile Responsive Design** to ensure a seamless user experience on all devices.
 
 ---
 
