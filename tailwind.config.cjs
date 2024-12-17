@@ -1,5 +1,9 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+import daisyui from 'daisyui';
+import tailwindAnimate from 'tailwindcss-animate';
+import flowbite from 'flowbite/plugin';
+
+export default {
   darkMode: ["class"],
   content: [
     './pages/**/*.{ts,tsx}',
@@ -75,11 +79,12 @@ module.exports = {
     },
   },
   plugins: [
-    require("tailwindcss-animate"),
-    require('daisyui'),
-    require('flowbite/plugin')
+    tailwindAnimate,
+    daisyui,
+    flowbite
   ],
   daisyui: {
     themes: ["dark", "cupcake"],
   },
-}
+};
+
